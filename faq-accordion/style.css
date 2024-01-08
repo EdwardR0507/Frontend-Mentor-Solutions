@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Work Sans";
+  font-display: swap;
+  font-weight: 400 700;
+  src: url("assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  --primary-color: hsl(0, 0%, 100%);
+  --secondary-color: hsl(275, 100%, 97%);
+  --grayish-purple-color: hsl(292, 16%, 49%);
+  --dark-purple-color: hsl(292, 42%, 14%);
+  --light-purple-color: hsl(281, 82%, 54%);
+  --font-family: "Work Sans", sans-serif;
+  --font-size: 16px;
+  --max-width: 560px;
+  --animation-duration: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondary-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  @media (min-width: 768px) {
+    background-image: url("assets/images/background-pattern-desktop.svg");
+  }
+}
+
+.faqs {
+  max-width: var(--max-width);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  margin: 16px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+}
+
+.faqs__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.faqs__header__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-purple-color);
+}
+
+.faqs__header__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.faqs__accordion__item {
+  padding: 1rem 0.5rem;
+}
+
+.minus__icon {
+  display: none;
+}
+
+.faqs__accordion__item[open] {
+  .minus__icon {
+    display: block;
+  }
+
+  .plus__icon {
+    display: none;
+  }
+}
+
+.faqs__accordion__item__summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faqs__accordion__item__question {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark-purple-color);
+  width: 80%;
+  transition: color var(--animation-duration) ease-in-out;
+}
+
+.faqs__accordion__item__question:hover {
+  color: var(--light-purple-color);
+}
+
+.faqs__accordion__item__answer {
+  color: var(--grayish-purple-color);
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+}
