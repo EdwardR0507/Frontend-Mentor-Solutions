@@ -14,7 +14,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution](URL)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/blog-preview-card-with-css-bem-and-flexbox-1xZEFwZXsZ)
 - Live Site URL: [Live site](https://blog-preview-card-solution-fm.netlify.app/)
 
 ## My process
