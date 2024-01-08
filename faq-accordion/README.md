@@ -14,7 +14,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: [Solution](URL)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/faq-accordion-css-bem-flexbox-and-js-eeumjH8a7_)
 - Live Site URL: [Live site](https://faq-accordion-solution-fm.netlify.app/)
 
 ## My process
