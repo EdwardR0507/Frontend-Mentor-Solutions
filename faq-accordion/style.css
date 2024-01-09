@@ -13,7 +13,7 @@
   --light-purple-color: hsl(281, 82%, 54%);
   --font-family: "Work Sans", sans-serif;
   --font-size: 16px;
-  --max-width: 560px;
+  --max-width: 580px;
   --animation-duration: 0.2s;
 }
 
@@ -51,7 +51,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 20px;
+  padding: 32px;
   margin: 16px;
   background-color: var(--primary-color);
   border-radius: 8px;
@@ -118,4 +118,10 @@ main {
   line-height: 1.2rem;
   margin-top: 1rem;
   letter-spacing: 1px;
+}
+
+.separator {
+  background-color: var(--grayish-purple-color);
+  margin: 0.5rem;
+  opacity: 0.1;
 }
