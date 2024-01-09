@@ -14,7 +14,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [Solution](URL)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-css-bem-and-js-0bNsPdwOK2)
 - Live Site URL: [Live site](https://newsletter-sign-up-solution-fm.netlify.app/)
 
 ## My process
