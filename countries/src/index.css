@@ -1,0 +1,42 @@
+:root {
+  --font-family: "Nunito Sans", sans-serif;
+  --font-size: 16px;
+  --max-width: 1660px;
+  --animation-duration: 0.2s;
+
+  --background-color: hsl(0, 0%, 98%);
+  --secondary-text-color: hsl(0, 0%, 52%);
+  --text-color: hsl(200, 15%, 8%);
+  --background-card-color: hsl(0, 0%, 100%);
+}
+
+[data-theme="dark"] {
+  --text-color: hsl(0, 0%, 100%);
+  --background-color: hsl(207, 26%, 17%);
+  --background-card-color: hsl(209, 23%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+[data-theme="dark"] body {
+  background-color: var(--background-color);
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  background-color: var(--background-card-color);
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
+}
+
+.header__title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.header__button {
+  display: flex;
+  align-items: end;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--text-color);
+  gap: 0.25rem;
+  background-color: transparent;
+  cursor: pointer;
+}

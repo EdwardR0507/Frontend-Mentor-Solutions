@@ -1,0 +1,43 @@
+.country {
+  border-radius: 0.5rem;
+  width: 100%;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: var(--text-color);
+  background-color: var(--background-card-color);
+}
+
+.country__flag {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.country__info {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.country__name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.country__details {
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+}
+
+.country__detail_label {
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.country__detail_value {
+  font-weight: 300;
+}
