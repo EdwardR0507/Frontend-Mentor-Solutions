@@ -14,7 +14,7 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/blog-preview-card-with-css-bem-and-flexbox-1xZEFwZXsZ)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/country-app-using-bem-react-with-hooks-react-rounter-dom-IpUe1p2sM_)
 - Live Site URL: [Live site](https://rest-countries-solution-fm.netlify.app/)
 
 ## My process
